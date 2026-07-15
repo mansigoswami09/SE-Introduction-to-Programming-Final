@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Zometo Order</title>
+</head>
+<body>
+<script>
+    let items =["Burger" , "Pizza" , "Fries"];
+    let prices =[120, 250, 90];
+    let total = 0;
+
+    for( let i = 0; i < items.length; i++)
+    {
+        total += prices[i];
+    }
+
+    console.log("Total price is: " + total);
+</script>
+</body>
+</html>
+
+<!-- NOTE:
+I fixed the errors in the JavaScript code inside the HTML file.
+
+I declared the loop variable `i` using `let`.
+
+Also, I changed `total =+ prices[i]` to `total += prices[i]` because the prices need to be added to the total.
+
+The final total price of the Zomato order is 460. -->
